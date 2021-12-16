@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing:border-box;
+}
+body{
+    margin-top: 0;
+}
+nav{
+    padding-top: 30px;
+    position: static;
+    top: 0;
+
+}
+nav ul{
+margin-left: 8%;
+margin-right: 8%;
+}
+nav ul li{
+display: inline-block;
+
+}
+nav ul li a{
+padding: 10px;
+color: black;
+display: block;
+}
+.fa-globe{
+    padding-right: 4px;
+    padding-left:15px ;
+}
+nav ul li a:hover{
+    color:blue;
+}
+
+.dropdown-content{
+position: absolute;
+display: none;
+background-color: #f1f1f1;
+min-width: 160px;
+z-index: 1;
+}
+.dropdown:hover .dropdown-content{
+display: block;
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  height: 300px;
+  position: relative;
+  margin: auto;
+}
+img{
+    height: 300px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.img-container{
+display: grid;
+grid-template-columns:auto auto auto auto ;
+grid-gap:25px;
+margin-left: 8%;
+margin-right: 8%;
+margin-bottom: 40px;
+}
+.img-container > div{
+height: 200px;
+border:1px solid blue;
+
+}
+.img-container :nth-child(1){
+    background-image: url('img/s21.jpg');
+    background-size: cover;
+}
+.img-container :nth-child(1){
+    background-image: url('img/s22.jpg');
+    background-size: cover;
+}
+.img-container :nth-child(1){
+    background-image: url('img/s23.jpg');
+    background-size: cover;
+}
+.img-container :nth-child(2){
+    background-image: url('img/s24.jpg');
+    background-size: cover;
+}
+.img-container :nth-child(3){
+    background-image: url('img/s25.jpg');
+    background-size: cover;
+}
+.img-container :nth-child(4){
+    background-image: url('img/s26.jpg');
+    background-size: cover;
+}
+.img-container :nth-child(5){
+    background-image: url('img/s27.jpg');
+    background-size: cover;
+}
+.img-container :nth-child(6){
+    background-image: url('img/s28.jpg');
+    background-size: cover;
+}
+.img-container :nth-child(7){
+    background-image: url('img/s29.jpg');
+    background-size: cover;
+}
+.img-container :nth-child(8){
+    background-image: url('img/s30.jpg');
+    background-size: cover;
+}
+h2.a{
+    margin:3% 0% 1% 8% ;
+}
+.video-container{
+  display: grid;
+ grid-gap:5px;
+  grid-template-columns: auto auto ;
+  
+
+  background-color: #dddcdc;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+}
+.video-container :nth-child(2){
+    float: right;
+
+ 
+}
+h1.c {
+margin-left: 8%;
+padding: 50px;
+}
+h2.d{
+    text-align: center;
+    padding: 50px;
+    }
+.expereanse-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap:25px;
+    margin-left: 8%;
+    margin-right: 8%;
+  
+}
+.expereanse-container > div{
+     height: 200px;
+}
+.expereanse-container :nth-child(1){
+    background-image: url('img/s31.jpg');
+    background-size: cover;
+}
+.expereanse-container :nth-child(2){
+    background-image: url('img/s32.jpg');
+    background-size: cover;
+}
+.expereanse-container :nth-child(3){
+    background-image: url('img/s33.jpg');
+    background-size: cover;
+}
+.expereanse-container :nth-child(4){
+    background-image: url('img/s34.jpg');
+    background-size: cover;
+}
+.expereanse-container2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap:25px;
+    margin-left: 8%;
+    margin-right: 8%;
+  
+}
+.expereanse-container2 > div{
+     height: 200px;
+}
+.expereanse-container2 :nth-child(1){
+    background-image: url('img/s35.jpg');
+    background-size: cover;
+}
+.expereanse-container2 :nth-child(2){
+    background-image: url('img/s36.jpg');
+    background-size: cover;
+}
+.expereanse-container2 :nth-child(3){
+    background-image: url('img/s12.jpg');
+    background-size: cover;
+}
+.expereanse-container2 :nth-child(4){
+    background-image: url('img/s14.jpg');
+    background-size: cover;
+}
+.expereanse-container3{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap:25px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 100px;
+}
+
+.expereanse-container3 > div{
+     height: 200px;
+}
+.expereanse-container3 :nth-child(1){
+    background-image: url('img/s35.jpg');
+    background-size: cover;
+}
+.expereanse-container3 :nth-child(2){
+    background-image: url('img/s36.jpg');
+    background-size: cover;
+}
+.expereanse-container3 :nth-child(3){
+    background-image: url('img/s12.jpg');
+    background-size: cover;
+}
+.expereanse-container3 :nth-child(4){
+    background-image: url('img/s14.jpg');
+    background-size: cover;
+}
+.footter{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
